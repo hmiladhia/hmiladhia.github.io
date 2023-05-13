@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  13 MAY 2023 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.7)  13 MAY 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,11 +1192,6 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
 n input line 106.
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-[][] [] [] 
- []
-
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 106.
@@ -1317,7 +1312,7 @@ me5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/typoland/lato/Lato-Regular.pfb>
-Output written on main.pdf (2 pages, 383943 bytes).
+Output written on main.pdf (2 pages, 383647 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
