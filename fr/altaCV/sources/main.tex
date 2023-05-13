@@ -1,0 +1,288 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.3, 10 May 2020) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+
+\documentclass[10pt,letter,ragged2e,withhyper]{altacv}
+
+%% AltaCV uses the fontawesome5 and academicon fonts and packages.
+%% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/academicons for full list of symbols.
+%% You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=1cm,top=1cm,bottom=1cm,columnsep=0.75cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{LimeGreen}{HTML}{11710E}
+\definecolor{Blue}{HTML}{253489}
+\definecolor{Teal}{HTML}{109EAA}
+\definecolor{Silver}{HTML}{B5B5B5}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+
+\colorlet{name}{black}
+\colorlet{tagline}{Blue}
+\colorlet{heading}{Blue}
+\colorlet{headingrule}{Blue}
+\colorlet{subheading}{Blue}
+\colorlet{accent}{Blue}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\renewcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\medskip}
+
+
+
+%% sample.bib contains your publications
+
+\begin{document}
+\newcommand{\cvpart}[1]{\ifstrequal{#1}{}{}{{\small\makebox[0.5\linewidth][l]{~#1}}}}
+
+\name{Dhia Hmila}
+\tagline{Data Scientist Senior chez AXA France}
+%% You can add multiple photos on the left or right
+\photoR{3.5cm}{photo_light.png}
+%\photoL{2cm}{Yacht_High,Suitcase_High}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{dhiahmila@gmail.com}  \phone{+33610201606}  \location{92700, Colombes, France}  \homepage{https://hmiladhia.github.io/}
+    \printinfo{\faGithub}{hmiladhia}[https://github.com/hmiladhia]
+    \printinfo{\faLinkedin}{dhia-hmila}[https://www.linkedin.com/in/dhia-hmila]
+    \printinfo{\faMedium}{Dhia Hmila}[https://dhiahmila.medium.com/]
+    \printinfo{\faStackOverflow}{dhia-hmila}[https://stackoverflow.com/users/8655480/dhia-hmila?tab=profile]
+  
+  % \printinfo{\faPaw}{Hey ho!}
+  %% Or you can declare your own field with
+  % \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+}
+
+\makecvheader
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+\cvsection{Expérience Professionnelle}
+
+\cvevent{Data Scientist Senior}{Équipe Data Science \& IA, AXA France}{        
+      Juin 2021 - Aujourd'hui
+      }{Nanterre, France}
+
+\begin{itemize}
+  \item Développement de modèles de classification de documents basé sur des technologies de Computer Vision (keras, Vision Transformer, openCV, ...) pour indexer les document de la GED ( Gestion éléctronique des documents ) d'AXA.
+  \item Construction de Pipelines Azure ML réutilisables pour réentrainer automatiquement un système IA (Yolov5, tesseract, VGG16, Vision Transformer, ...) utilisé pour l'extraction d'informations (Permis, CNI, ...)
+  \item Construction de Templates CI (Continuous Integration), CD (Continuous Deployment) \& CT (Continuous Training) pour les projets de l'équipe
+  \item Responsable de la "COP Python" d'AXA et animateur d'événements mensuels de programmation ( testing, Web Scraping, packaging, qualité de code)
+  \item Animation d'une formation Python et Manipulation de données en utilisant pandas \& pyspark pour des collaborateurs AXA
+\end{itemize}
+
+\divider
+\cvevent{Graduate Program - Data Scientist}{Équipe Data, Fraud, Waste \& Abuse, AXA France}{        
+      Mai 2020 - Juin 2021
+      }{Nanterre, France}
+
+\begin{itemize}
+  \item Développement d'un outil de détection automatique de fraudes qui agit sur différents périmètres (Prestataires de santé, Bénéficiaires, Procédures médicales, ...) et déploiement sur Databricks.
+  \item Création de différents modèles de détection de fraude pour alimenter l'outil de détection FWA.
+\end{itemize}
+
+\divider
+\cvevent{Data Scientist}{Shift Technology}{        
+      Avril 2019 - Mars 2020
+      }{Paris, France}
+
+\begin{itemize}
+  \item Utilisation de technologies NLP pour le clustering des notes de gestionnaires de sinistres et création de nouveaux modèles de détection de fraude
+  \item Amélioration et déploiement de la solution de détection de fraude Force de SHIFT pour un nouveau client
+\end{itemize}
+
+
+
+\cvsection{Projets}
+
+\cvevent{\faCube \href{https://pypi.org/project/nbmanips/}{nbmanips: Découper, fusionner et convertir vos Notebooks}}{\cvtag{Jupyter}\cvtag{Databricks}\cvtag{Zeppelin}}{        
+      Mai 2021 - Aujourd'hui
+      }{}
+
+Un package open-source d'outils de manipulation de Notebooks via des scripts python ou une CLI.
+
+
+\divider
+\cvevent{\faLaptop \href{https://spot-language.onrender.com/}{Spot-Language: Prédiction du language de programmation}}{\cvtag{Classification}\cvtag{Flask}\cvtag{NLP}\cvtag{Compression de Modèles}}{        
+    Janvier 2020
+  }{}
+
+Spot-Language est un modèle de classification des languages utilisés dans des sources de code.
+
+\begin{itemize}
+      \item Construction de dataset d'entrainement provenant de repositories github publiques.
+      \item Déploiement d'une application Web pour servir de démo au modèle IA.
+  \end{itemize}
+
+\divider
+\cvevent{\faCube \href{https://pypi.org/project/Dmail/}{Dmail: Envoi d'e-mails au format Markdown}}{\cvtag{email}\cvtag{markdown}\cvtag{downloads\textgreater{}100k}}{        
+      Avril 2020 - Mai 2020
+      }{}
+
+Un package python qui permet d'envoyer des e-mails au format markdown
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+
+\cvsection{Cursus}
+
+\cvevent{Double diplôme d'ingénieur}{\cvpart{\faUserGraduate ENSTA ParisTech }\cvpart{\faUserGraduate  ENIT}}{2016 - 2019}{France - Tunisia}
+{\small Spécialisé en \textbf{Intelligence Artificielle}}
+
+\divider
+\cvevent{Cycle préparatoire}{\cvpart{\faUserGraduate IPEIT }\cvpart{\faUserGraduate  Esprit Prépa}}{2014 - 2015}{France - Tunisia}
+{\small Spécialisé en \textbf{Math \& Physique}}
+{\small Rang 10 au concours d'entrée aux écoles d'ingénieurs en Tunisie parmi plus de 3000 candidats.}
+
+
+
+\cvsection{Compétences}
+
+\cvsubsection{Intelligence Artificielle}
+\providecommand{\faAnomalyDetection}{}
+\cvtag{\faAnomalyDetection Anomaly Detection}
+\providecommand{\faTensorflow}{}
+\cvtag{\faTensorflow Tensorflow}
+\providecommand{\faTfx}{}
+\cvtag{\faTfx TFX}
+\providecommand{\faScikitLearn}{}
+\cvtag{\faScikitLearn scikit-learn}
+\providecommand{\faNlp}{}
+\cvtag{\faNlp NLP}
+\providecommand{\faNltk}{}
+\cvtag{\faNltk nltk}
+\providecommand{\faSpacy}{}
+\cvtag{\faSpacy spaCy}
+\providecommand{\faGensim}{}
+\cvtag{\faGensim Gensim}
+\providecommand{\faPyod}{}
+\cvtag{\faPyod pyod}
+
+\divider
+\cvsubsection{Data Wrangling}
+\providecommand{\faPandas}{}
+\cvtag{\faPandas pandas}
+\providecommand{\faPyspark}{}
+\cvtag{\faPyspark pyspark}
+\providecommand{\faSql}{}
+\cvtag{\faSql SQL}
+\providecommand{\faEtl}{}
+\cvtag{\faEtl ETL}
+
+\divider
+\cvsubsection{Languages de programmation}
+\providecommand{\faPython}{}
+\cvtag{\faPython Python}
+\providecommand{\faCC}{}
+\cvtag{\faCC C/C++}
+\providecommand{\faC}{}
+\cvtag{\faC C\#}
+\providecommand{\faJavascript}{}
+\cvtag{\faJavascript JavaScript}
+
+\divider
+\cvsubsection{MLOps}
+\providecommand{\faGithubWorkflows}{}
+\cvtag{\faGithubWorkflows Github Workflows}
+\providecommand{\faAzurePipelines}{}
+\cvtag{\faAzurePipelines Azure Pipelines}
+\cvtag{\faGitSquare Git}
+\providecommand{\faLinux}{}
+\cvtag{\faLinux Linux}
+\providecommand{\faDocker}{}
+\cvtag{\faDocker Docker}
+\providecommand{\faAzureMl}{}
+\cvtag{\faAzureMl Azure ML}
+\providecommand{\faDatabricks}{}
+\cvtag{\faDatabricks Databricks}
+
+\divider
+\cvsubsection{Web Scraping}
+\providecommand{\faSelenium}{}
+\cvtag{\faSelenium selenium}
+\providecommand{\faRequests}{}
+\cvtag{\faRequests requests}
+\providecommand{\faBeautifulsoup}{}
+\cvtag{\faBeautifulsoup BeautifulSoup4}
+
+
+
+\cvsection{Langues}
+
+\cvskill{\large Arabe}{5}
+\cvskill{\large Anglais}{5}
+\cvskill{\large Français}{5}
+
+
+\cvsection{Certifications}
+
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/J5FL39Y2CK4D}{Cloud-Native Development with OpenShift and Kubernetes Specialization}}{\cvpart{Coursera}\cvpart{\faCalendar 2023 2023}}
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/6XMVEAR45K6G}{Machine Learning Engineering for Production (MLOps)}}{\cvpart{Coursera}\cvpart{\faCalendar 2022 2022}}
+\cvachievement{\faGraduationCap}{\href{https://triplebyte.com/tb/dhia-hmila-hatf9ne/certificate}{Machine Learning \& General Coding Logic}}{\cvpart{Triplebyte}\cvpart{\faCalendar 2023 2023}}
+
+\end{paracol}
+
+\end{document}
