@@ -51,18 +51,18 @@
 \definecolor{Blue}{HTML}{253489}
 \definecolor{Teal}{HTML}{109EAA}
 \definecolor{Silver}{HTML}{B5B5B5}
-\definecolor{SlateGrey}{HTML}{2E2E2E}
-\definecolor{LightGrey}{HTML}{666666}
 \definecolor{DarkPastelRed}{HTML}{450808}
 \definecolor{PastelRed}{HTML}{8F0D0D}
 \definecolor{GoldenEarth}{HTML}{E7D192}
+\definecolor{DarkGreen}{HTML}{303d36}
+\definecolor{MyGreen}{HTML}{88A05B}
 
 \colorlet{name}{black}
-\colorlet{tagline}{Blue}
-\colorlet{heading}{Blue}
-\colorlet{headingrule}{Blue}
-\colorlet{subheading}{Blue}
-\colorlet{accent}{Blue}
+\colorlet{tagline}{teal}
+\colorlet{heading}{teal}
+\colorlet{headingrule}{teal}
+\colorlet{subheading}{DarkGreen}
+\colorlet{accent}{teal}
 \colorlet{emphasis}{SlateGrey}
 \colorlet{body}{LightGrey}
 
@@ -122,15 +122,17 @@
       }{Nanterre, France}
 
 \begin{itemize}
-  \item Development of document classification model using Computer Vision (Vision Transformer, VGG16, openCV, ...) to automatically index AXA's Document management system ( GED ).
-  \item Building a reusable Azure ML Pipeline to automatically retrain an AI System (Yolov5, tesseract, VGG16, Vision Transformer, ...) used for information extraction (Driver's license, National ID card, Passeports ...)
+  \item Development of document classification models using Computer Vision (Vision Transformer, VGG16, openCV, ...) \& OCR (tesseract, EasyOCR, ...) to automatically index AXA's Document management system ( GED ).
+  \item Development of text extraction AI Systems using Computer Vision (Yolov5, tesseract, VGG16, Vision Transformer, ...) to read documents (Driver's license, National ID card, Passeports, "Relevé d'information" ...)
+  \item Development of resuable assets (packages, models, micro-services, ...) to use across the Team's projects.
+  \item Building reusable Azure ML Pipelines (Continuous Training) to automatically retrain AI Systems \& publish to Model Registery.
   \item Defining CI (Continuous Integration), CD (Continuous Deployment) \& CT (Continuous Training) Templates for the Team's projects.
   \item Leading AXA's "Python COP" and organising a series of monthly programming talks/events (e.i. testing, Web Scraping, packaging, code quality, ...)
   \item Leading a series of training sessions/courses on Python, Data Manipulation (pandas \& pyspark), Software Engineering best practices for AXA collaborators
 \end{itemize}
 
 \divider
-\cvevent{Graduate Program - Data Scientist}{Data, Fraud, Waste \& Abuse Team, AXA France}{        
+\cvevent{Graduate Data Scientist}{Data, Fraud, Waste \& Abuse Team, AXA France}{        
       May 2020 - June 2021
       }{Nanterre, France}
 
@@ -153,15 +155,31 @@
 
 \cvsection{Projects}
 
+\cvevent{\faCube \href{https://github.com/hmiladhia/pysira}{pysira: publish resumes in different formats}}{\cvtag{Github Actions}\cvtag{Jinja2 Templates}\cvtag{jsonschema}}{        
+      February 2023 - Present
+      }{}
+
+CLI tool to export "jsonresume" files to different formats (html, tex, pdf, ...) and different languages.
+
+\begin{itemize}
+      \item Creation of a CI/CD pipeline (Github Actions) to publish resume in different themes, formats, languages
+      \item This resume was created using pysira: hmiladhia.github.io/en or hmiladhia.github.io/resume.pdf
+  \end{itemize}
+
+\divider
 \cvevent{\faCube \href{https://pypi.org/project/nbmanips/}{nbmanips: Split, merge and convert IPython Notebooks}}{\cvtag{Jupyter}\cvtag{Databricks}\cvtag{Zeppelin}}{        
       May 2021 - Present
       }{}
 
 An open-source package containing a collection of tools to manipulate Notebooks via a python or CLI.
 
+\begin{itemize}
+      \item Creation of a python package to manipulate (Split, Merge, ...) Notebooks
+      \item Use of CI/CD piplines (Github Actions) to Lint, Test and publish the package to Pypi
+  \end{itemize}
 
 \divider
-\cvevent{\faLaptop \href{https://spot-language.onrender.com/}{Spot-Language: Programming Language Detection}}{\cvtag{Classification}\cvtag{Flask}\cvtag{NLP}\cvtag{Model Compression}}{        
+\cvevent{\faLaptop \href{https://spot-language.onrender.com/}{Spot-Language: Programming Language Detection}}{\cvtag{Classification}\cvtag{Flask}\cvtag{NLP}\cvtag{Lime}}{        
     January 2020
   }{}
 
@@ -169,16 +187,9 @@ Spot-Language is a classification model to detect the language used in code snip
 
 \begin{itemize}
       \item Construction of a Training dataset from github public repositories.
+      \item Building an ML Experiment to train an NLP model (Random Forest, Neural Networks, ...) for language classification.
       \item Deployment of Web Application to serve as demo of the ML Model.
   \end{itemize}
-
-\divider
-\cvevent{\faCube \href{https://pypi.org/project/Dmail/}{Dmail}}{\cvtag{email}\cvtag{markdown}\cvtag{downloads\textgreater{}100k}}{        
-      April 2020 - May 2020
-      }{}
-
-A python package to write \& send emails in markdown format
-
 
 
 
@@ -205,78 +216,61 @@ I'm a passionate Data Scientist and a programming enthusiast. I've worked on fra
 
 \cvsection{Skills}
 
-\cvsubsection{Artificial Intelligence}
-\providecommand{\faAnomalyDetection}{}
-\cvtag{\faAnomalyDetection Anomaly Detection}
-\providecommand{\faTensorflow}{}
-\cvtag{\faTensorflow Tensorflow}
-\providecommand{\faTfx}{}
-\cvtag{\faTfx TFX}
-\providecommand{\faScikitLearn}{}
-\cvtag{\faScikitLearn scikit-learn}
-\providecommand{\faNlp}{}
-\cvtag{\faNlp NLP}
-\providecommand{\faNltk}{}
-\cvtag{\faNltk nltk}
-\providecommand{\faSpacy}{}
-\cvtag{\faSpacy spaCy}
-\providecommand{\faGensim}{}
-\cvtag{\faGensim Gensim}
-\providecommand{\faPyod}{}
-\cvtag{\faPyod pyod}
+\cvsubsection{Machine Learning}
+\cvtag{ scikit-learn}
+\cvtag{ Tensorflow/keras}
+\cvtag{ trax}
+\cvtag{ NLP}
+\cvtag{ nltk}
+\cvtag{ spaCy}
+\cvtag{ Gensim}
+\cvtag{ pyod}
 
 \divider
 \cvsubsection{Data Wrangling}
-\providecommand{\faPandas}{}
-\cvtag{\faPandas pandas}
-\providecommand{\faPyspark}{}
-\cvtag{\faPyspark pyspark}
-\providecommand{\faSql}{}
-\cvtag{\faSql SQL}
-\providecommand{\faEtl}{}
-\cvtag{\faEtl ETL}
+\cvtag{ pandas}
+\cvtag{ pyspark}
+\cvtag{\faDatabase SQL}
+\cvtag{ ETL}
 
 \divider
 \cvsubsection{Programming Languages}
-\providecommand{\faPython}{}
 \cvtag{\faPython Python}
-\providecommand{\faCC}{}
-\cvtag{\faCC C/C++}
-\providecommand{\faC}{}
-\cvtag{\faC C\#}
-\providecommand{\faJavascript}{}
-\cvtag{\faJavascript JavaScript}
+\cvtag{ C/C++}
+\cvtag{ C\#}
+\cvtag{\faJs JavaScript}
 
 \divider
 \cvsubsection{MLOps}
-\providecommand{\faGithubWorkflows}{}
-\cvtag{\faGithubWorkflows Github Workflows}
-\providecommand{\faAzurePipelines}{}
-\cvtag{\faAzurePipelines Azure Pipelines}
+\cvtag{\faGithub Github Workflows}
+\cvtag{\faMicrosoft Azure Pipelines}
 \cvtag{\faGitSquare Git}
-\providecommand{\faLinux}{}
 \cvtag{\faLinux Linux}
-\providecommand{\faDocker}{}
 \cvtag{\faDocker Docker}
-\providecommand{\faAzureMl}{}
-\cvtag{\faAzureMl Azure ML}
-\providecommand{\faDatabricks}{}
-\cvtag{\faDatabricks Databricks}
+\cvtag{\faMicrosoft Azure ML}
+\cvtag{ Databricks}
+\cvtag{ huggingface}
 
 \divider
 \cvsubsection{Web Scraping}
-\providecommand{\faSelenium}{}
-\cvtag{\faSelenium selenium}
-\providecommand{\faRequests}{}
-\cvtag{\faRequests requests}
-\providecommand{\faBeautifulsoup}{}
-\cvtag{\faBeautifulsoup BeautifulSoup4}
+\cvtag{ selenium}
+\cvtag{ requests}
+\cvtag{ BeautifulSoup4}
+
+\divider
+\cvsubsection{Web}
+\cvtag{ HTML}
+\cvtag{ CSS}
+\cvtag{\faJs JavaScript}
+\cvtag{ fastapi}
+\cvtag{\faFlask flask}
+\cvtag{ Dash}
 
 
 
 \cvsection{Languages}
 
-\cvskill{\large Arabic}{5}
+\cvskill{\large Arabic}{6}
 \cvskill{\large English}{5}
 \cvskill{\large French}{5}
 
