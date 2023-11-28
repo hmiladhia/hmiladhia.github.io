@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.12)  28 NOV 2023 00:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.12)  28 NOV 2023 00:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1043,8 +1043,7 @@ File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 83.
-
-No file main.aux.
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -1065,6 +1064,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
 LaTeX Font Info:    ... okay on input line 83.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
 LaTeX Font Info:    ... okay on input line 83.
+
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count447
@@ -1088,6 +1088,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 83.
+
+(./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1137,9 +1139,9 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
+Package biblatex Info: ... file 'main.bbl' found.
 
-No file main.bbl.
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 83.
 Package biblatex Info: Reference segment=0 on input line 83.
 \c@mv@tabular=\count453
@@ -1320,11 +1322,29 @@ Overfull \hbox (1.59999pt too wide) in paragraph at lines 314--314
 Package hyperref Warning: Suppressing link with empty target on input line 314.
 
 
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <12> not 
+available
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 319.
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 319.
 
-Package biblatex Warning: Type 'online' not found on input line 319.
+Overfull \hbox (27.84738pt too wide) in paragraph at lines 319--319
+\T1/lato-TLF/m/it/10 make Python Faster\T1/lato-TLF/m/n/10 . URL: []$https : / 
+/ towardsdatascience . 
+ []
 
 
-LaTeX Warning: Empty bibliography on input line 319.
+Overfull \hbox (107.20029pt too wide) in paragraph at lines 319--319
+\T1/lato-TLF/m/n/10 com / this-[]decorator-[]will-[]make-[]python-[]30-[]times-
+[]faster-[]715ca5a66d5f$[].  
+ []
+
+
+Overfull \hbox (80.3854pt too wide) in paragraph at lines 319--319
+\T1/lato-TLF/m/n/10 3-[]reasons-[]why-[]sparks-[]lazy-[]evaluation-[]is-[]usefu
+l-[]ed06e27360c4$[].  
+ []
 
 [2] (./main.aux)
  ***********
@@ -1335,39 +1355,33 @@ L3 programming layer <2023-11-01>
 
 LaTeX Warning: There were undefined references.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39771 strings out of 474272
- 785360 string characters out of 5747518
+ 40002 strings out of 474272
+ 790323 string characters out of 5747518
  1989530 words of memory out of 5000000
- 61381 multiletter control sequences out of 15000+600000
- 851338 words of font info for 75 fonts, out of 8000000 for 9000
+ 61599 multiletter control sequences out of 15000+600000
+ 874537 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,11n,121p,1129b,2646s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
-pe1/typoland/lato/Lato-Regular.pfb>
-Output written on main.pdf (2 pages, 955827 bytes).
+pe1/typoland/lato/Lato-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/typoland/lato/Lato-Regular.pfb>
+Output written on main.pdf (2 pages, 976740 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
  55 words of extra memory for PDF output out of 10000 (max. 10000000)
 
