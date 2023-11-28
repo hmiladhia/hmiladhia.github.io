@@ -27,7 +27,7 @@
 %% You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
 
 % Change the page layout if you need to
-\geometry{left=1cm,right=1cm,top=1cm,bottom=1cm,columnsep=0.75cm}
+\geometry{left=1cm,right=1cm,top=0.8cm,bottom=0.8cm,columnsep=0.75cm}
 
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
@@ -78,18 +78,16 @@
 
 
 %% sample.bib contains your publications
+\addbibresource{sample.bib}
 
 \begin{document}
 \newcommand{\cvpart}[1]{\ifstrequal{#1}{}{}{{\small\makebox[0.5\linewidth][l]{~#1}}}}
 
 \name{Dhia Hmila}
-\tagline{Senior Data Scientist at AXA France}
-%% You can add multiple photos on the left or right
-\photoR{3.5cm}{photo_light.png}
-%\photoL{2cm}{Yacht_High,Suitcase_High}
+\tagline{Senior Data Scientist at AXA France}\photoR{3.5cm}{photo.png}
+\photoL{3cm}{qrcode.png}
+
 \personalinfo{%
-  % Not all of these are required!
-  % You can add your own with \printinfo{symbol}{detail}
   \email{dhiahmila@gmail.com}  \phone{+33610201606}  \location{92700, Colombes, France}  \homepage{hmiladhia.github.io}
     \printinfo{\faGithub}{hmiladhia}[https://github.com/hmiladhia]
     \printinfo{\faLinkedin}{dhia-hmila}[https://www.linkedin.com/in/dhia-hmila]
@@ -97,10 +95,6 @@
     \printinfo{\faStackOverflow}{dhia-hmila}[https://stackoverflow.com/users/8655480/dhia-hmila?tab=profile]
   
   % \printinfo{\faPaw}{Hey ho!}
-  %% Or you can declare your own field with
-  % \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
-  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
-  % \gitlab{your_id}
 }
 
 \makecvheader
@@ -122,13 +116,16 @@
       }{Nanterre, France}
 
 \begin{itemize}
-  \item Development of document classification models using Computer Vision (Vision Transformer, VGG16, openCV, ...) \& OCR (tesseract, EasyOCR, ...) to automatically index AXA's Document management system ( GED ).
-  \item Development of text extraction AI Systems using Computer Vision (Yolov5, tesseract, VGG16, Vision Transformer, ...) to read documents (Driver's license, National ID card, Passeports, "Relevé d'information" ...)
-  \item Development of resuable assets (packages, models, micro-services, ...) to use across the Team's projects.
-  \item Building reusable Azure ML Pipelines (Continuous Training) to automatically retrain AI Systems \& publish to Model Registery.
-  \item Defining CI (Continuous Integration), CD (Continuous Deployment) \& CT (Continuous Training) Templates for the Team's projects.
-  \item Leading AXA's "Python COP" and organising a series of monthly programming talks/events (e.i. testing, Web Scraping, packaging, code quality, ...)
-  \item Leading a series of training sessions/courses on Python, Data Manipulation (pandas \& pyspark), Software Engineering best practices for AXA collaborators
+  \item Automated the indexing of 70\% of AXA's incoming documents by developing a retrainable document classification AI System (exposed as an API).
+  \item Developed text extraction AI Systems using computer vision to read documents (Driver's license, National ID card, etc.). The models processed over 6M documents in batches using PySpark Jobs
+  \item Developed a range of reusable python packages for document processing (OCR, object detection, etc.) The packages are designed using the strategy pattern to quickly experiment with different algorithms / models.
+  \item Created a YAML-based templating system to streamline the creation of Azure ML pipelines.
+  \item Built reusable Azure ML Pipelines (Continuous Training) to automatically retrain AI Systems and publish to Model Registry.
+  \item Designed Azure DevOps CI/CD/CT pipeline templates to be used in the Team's projects.
+  \item Led the hiring process, onboarding new team members and facilitating efficient knowledge transfer.
+  \item Coordinated the annotation process with annotators and SMEs (subject matter experts) to ensure consistent datasets across various projects.
+  \item Led AXA's 'Python COP' initiative, organizing a series of monthly programming talks and events on topics such as testing, web scraping, packaging, code quality, etc.
+  \item Teached a series of training sessions/courses on Python, Data Manipulation (pandas \& pyspark), Software Engineering best practices for over 30 AXA collaborators.
 \end{itemize}
 
 \divider
@@ -137,8 +134,8 @@
       }{Nanterre, France}
 
 \begin{itemize}
-  \item Development of an AI-based Fraud, Waste, and Abuse Detection Tool that acts on various scopes (Claims, Health Providers, Beneficiaries, ...) \& Deployment on Databricks
-  \item Creation of various fraud detection models for fraudulent patterns as part of the FWA detection tool.
+  \item Engineered an advanced AI-driven Fraud, Waste, and Abuse Detection Tool with a wide-ranging impact across multiple scopes, including Claims, Health Providers, Beneficiaries, and more. This innovative tool played a pivotal role in achieving savings exceeding 150k euros in 2022.
+  \item Designed and trained various fraud detection models for fraudulent patterns as part of the FWA detection tool.
 \end{itemize}
 
 \divider
@@ -147,23 +144,41 @@
       }{Paris, France}
 
 \begin{itemize}
-  \item Use of NLP technologies for clustering Claim managers' notes and visualizing results for detecting new patterns of fraud
-  \item Build AI Models for Shift's fraud detection solution \& Deployment for a new customer
+  \item Applied Natural Language Processing (NLP) techniques to cluster Claim managers' notes, leveraging advanced visualization methods to uncover and identify emerging fraud patterns.
+  \item Built new AI Models for Shift's fraud detection solution \& Deployed their solution for a new customer.
+\end{itemize}
+
+\divider
+\cvevent{Research Internship}{U2IS - ENSTA Paris}{        
+      May 2018 - August 2018
+      }{Palaiseau, France}
+
+\begin{itemize}
+  \item Created a synthetic image dataset by building a simulation of an agent in an in-house environment and using Raytracing to render realistic images.
+  \item Studied Catastrophic Forgetting in Incremental Learning of Principal Components of generated Images
 \end{itemize}
 
 
 
 \cvsection{Projects}
 
+\cvevent{\faCube \href{https://github.com/hmiladhia/mlflower}{mlflower: Lightweight orchestration tool for mlflow projects}}{\cvtag{mlflow}\cvtag{orchestration}\cvtag{experiment-tracking}}{        
+      November 2023 - Present
+      }{}
+
+Tool to extend mlflow projects with inbuilt multi step workflow orchestration
+
+
+\divider
 \cvevent{\faCube \href{https://github.com/hmiladhia/pysira}{pysira: publish resumes in different formats}}{\cvtag{Github Actions}\cvtag{Jinja2 Templates}\cvtag{jsonschema}}{        
       February 2023 - Present
       }{}
 
-CLI tool to export "jsonresume" files to different formats (html, tex, pdf, ...) and different languages.
+CLI tool to export 'jsonresume' files to different formats (HTML, TeX, PDF, etc.) and languages.
 
 \begin{itemize}
-      \item Creation of a CI/CD pipeline (Github Actions) to publish resume in different themes, formats, languages
-      \item This resume was created using pysira: hmiladhia.github.io/en or hmiladhia.github.io/resume.pdf
+      \item Created a CI/CD pipeline (Github Actions) to publish resumes in different themes, formats and languages
+      \item This resume was created using pysira: hmiladhia.github.io, hmiladhia.github.io/cv.pdf, hmiladhia.github.io/fr/kendall or hmiladhia.github.io/resume.pdf
   \end{itemize}
 
 \divider
@@ -174,21 +189,8 @@ CLI tool to export "jsonresume" files to different formats (html, tex, pdf, ...)
 An open-source package containing a collection of tools to manipulate Notebooks via a python or CLI.
 
 \begin{itemize}
-      \item Creation of a python package to manipulate (Split, Merge, ...) Notebooks
-      \item Use of CI/CD piplines (Github Actions) to Lint, Test and publish the package to Pypi
-  \end{itemize}
-
-\divider
-\cvevent{\faLaptop \href{https://spot-language.onrender.com/}{Spot-Language: Programming Language Detection}}{\cvtag{Classification}\cvtag{Flask}\cvtag{NLP}\cvtag{Lime}}{        
-    January 2020
-  }{}
-
-Spot-Language is a classification model to detect the language used in code snippets.
-
-\begin{itemize}
-      \item Construction of a Training dataset from github public repositories.
-      \item Building an ML Experiment to train an NLP model (Random Forest, Neural Networks, ...) for language classification.
-      \item Deployment of Web Application to serve as demo of the ML Model.
+      \item Developed a python package/CLI to manipulate (Split, Merge, ...) Jupyter Notebooks
+      \item Used CI/CD piplines (Github Actions) to Lint, Test and publish the package to Pypi
   \end{itemize}
 
 
@@ -199,7 +201,10 @@ Spot-Language is a classification model to detect the language used in code snip
 \switchcolumn
 \cvsection{About}
 {\small
-I'm a passionate Data Scientist and a programming enthusiast. I've worked on fraud/anomaly detection and document classification problems
+I am a passionate Data Scientist and programming enthusiast who has tackled challenges 
+in fraud/anomaly detection and document classification. 
+I am also an active contributor on GitHub.
+
 }
 
 \cvsection{Education}
@@ -217,14 +222,35 @@ I'm a passionate Data Scientist and a programming enthusiast. I've worked on fra
 \cvsection{Skills}
 
 \cvsubsection{Machine Learning}
+\cvtag{ mlflow}
 \cvtag{ scikit-learn}
-\cvtag{ Tensorflow/keras}
+\cvtag{ Tensorflow}
+\cvtag{ pytorch}
 \cvtag{ trax}
-\cvtag{ NLP}
+\cvtag{ pyod}
+\cvtag{ transformers}
+\cvtag{ huggingface}
+\cvtag{ pytorch-lightning}
+
+\divider
+\cvsubsection{Computer Vision}
+\cvtag{ OpenCV}
+\cvtag{ torchvision}
+\cvtag{ Vision Transformers}
+\cvtag{ VGG16}
+\cvtag{ YOLO}
+\cvtag{ Feature Matching}
+\cvtag{ tesseract}
+\cvtag{ easy-ocr}
+\cvtag{ paddleOCR}
+
+\divider
+\cvsubsection{Natural Language Processing}
 \cvtag{ nltk}
 \cvtag{ spaCy}
 \cvtag{ Gensim}
-\cvtag{ pyod}
+\cvtag{ torchtext}
+\cvtag{ langchain}
 
 \divider
 \cvsubsection{Data Wrangling}
@@ -247,9 +273,13 @@ I'm a passionate Data Scientist and a programming enthusiast. I've worked on fra
 \cvtag{\faGitSquare Git}
 \cvtag{\faLinux Linux}
 \cvtag{\faDocker Docker}
+\cvtag{ Kubernetes}
+
+\divider
+\cvsubsection{Cloud}
 \cvtag{\faMicrosoft Azure ML}
 \cvtag{ Databricks}
-\cvtag{ huggingface}
+\cvtag{ Heroku}
 
 \divider
 \cvsubsection{Web Scraping}
@@ -273,6 +303,7 @@ I'm a passionate Data Scientist and a programming enthusiast. I've worked on fra
 \cvskill{\large Arabic}{6}
 \cvskill{\large English}{5}
 \cvskill{\large French}{5}
+\cvskill{\large German}{1}
 
 
 \cvsection{Certificates}
@@ -280,6 +311,15 @@ I'm a passionate Data Scientist and a programming enthusiast. I've worked on fra
 \cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/J5FL39Y2CK4D}{Cloud-Native Development with OpenShift and Kubernetes Specialization}}{\cvpart{Coursera}\cvpart{\faCalendar 2023 2023}}
 \cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/6XMVEAR45K6G}{Machine Learning Engineering for Production (MLOps)}}{\cvpart{Coursera}\cvpart{\faCalendar 2022 2022}}
 \cvachievement{\faGraduationCap}{\href{https://triplebyte.com/tb/dhia-hmila-hatf9ne/certificate}{Machine Learning \& General Coding Logic}}{\cvpart{Triplebyte}\cvpart{\faCalendar 2023 2023}}
+\cvachievement{\faGraduationCap}{\href{}{TOEIC Listening and Reading Test (Score 985/990)}}{\cvpart{ETS Global}\cvpart{\faCalendar 2018 2018}}
+\cvsection{Publications}
+
+\nocite{*}
+
+\printbibliography[heading=pubtype,title={\printinfo{\faMedium}{Medium Articles}},type=online]
+
+
+
 
 \end{paracol}
 

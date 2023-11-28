@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.12)  26 NOV 2023 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.12)  28 NOV 2023 00:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1101,14 +1101,14 @@ Package hyperref Info: Link coloring OFF on input line 82.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
+* v-part:(T,H,B)=(22.76228pt, 749.44542pt, 22.76228pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=557.38951pt
-* \textheight=738.0645pt
+* \textheight=749.44542pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-80.81725pt
+* \topmargin=-86.5077pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1144,99 +1144,108 @@ Package biblatex Info: Reference section=0 on input line 82.
 Package biblatex Info: Reference segment=0 on input line 82.
 \c@mv@tabular=\count453
 \c@mv@boldtabular=\count454
+<qrcode.png, id=10, 471.7625pt x 471.7625pt>
+File: qrcode.png Graphic file (type png)
+<use qrcode.png>
+Package pdftex.def Info: qrcode.png  used on input line 99.
+(pdftex.def)             Requested size: 471.76134pt x 471.76134pt.
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 99.
+<<omx.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 106.
+(Font)              scaled to size 24.88pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 106.
+(Font)              scaled to size 24.88pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 106.
+(Font)              scaled to size 12.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 106.
+(Font)              scaled to size 12.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 106.
+(Font)              scaled to size 8.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 106.
+(Font)              scaled to size 8.0pt on input line 99.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 106.
+nput line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 106.
+nput line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 106.
+nput line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 106.
+ input line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.
 fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 106.
+n input line 99.
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
- input line 106.
+ input line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.
 fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 106.
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 106.
-<<omx.cmap>>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 106.
-<photo_light.png, id=20, 374.39874pt x 374.39874pt>
+n input line 99.
+
+Underfull \hbox (badness 1558) in paragraph at lines 99--99
+[] [] [] [] 
+ []
+
+<photo_light.png, id=22, 374.39874pt x 374.39874pt>
 File: photo_light.png Graphic file (type png)
 <use photo_light.png>
-Package pdftex.def Info: photo_light.png  used on input line 106.
+Package pdftex.def Info: photo_light.png  used on input line 99.
 (pdftex.def)             Requested size: 374.39783pt x 374.39783pt.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 118.
+(Font)              scaled to size 17.28pt on input line 111.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 118.
+(Font)              scaled to size 17.28pt on input line 111.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 122.
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 122.
+(Font)              scaled to size 9.0pt on input line 115.
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 125.
-
+ine 118.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 125.
+(Font)              scaled to size 9.0pt on input line 118.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 192.
+(Font)              scaled to size 9.0pt on input line 185.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 192.
+nput line 185.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd
 )
-Overfull \hbox (1.72787pt too wide) in paragraph at lines 205--214
+Overfull \hbox (1.72787pt too wide) in paragraph at lines 198--207
 []  []  []  []  [] 
  []
 
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 224.
+n input line 217.
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 227.
+n input line 220.
 
-Overfull \hbox (14.238pt too wide) in paragraph at lines 231--238
+Overfull \hbox (14.238pt too wide) in paragraph at lines 224--231
 []  []  []  [] 
  []
 
@@ -1249,19 +1258,19 @@ l/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local
 texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local
 /texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{/usr/loca
 l/texlive/2023/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive
-/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc} <./photo_light.png 
-(PNG copy)>]
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 256--256
+/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc} <./qrcode.png> <./p
+hoto_light.png (PNG copy)>]
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 249--249
 []|[]| 
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 257--257
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 250--250
 []|[]| 
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 258--258
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 251--251
 []|[]| 
  []
 
@@ -1292,21 +1301,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39757 strings out of 474272
- 785113 string characters out of 5747518
- 1982530 words of memory out of 5000000
- 61367 multiletter control sequences out of 15000+600000
+ 39765 strings out of 474272
+ 785258 string characters out of 5747518
+ 1984530 words of memory out of 5000000
+ 61375 multiletter control sequences out of 15000+600000
  851344 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,11n,121p,1129b,2600s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,11n,121p,1129b,2569s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/typoland/lato/Lato-Regular.pfb>
-Output written on main.pdf (2 pages, 384420 bytes).
+Output written on main.pdf (2 pages, 389038 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 55 words of extra memory for PDF output out of 10000 (max. 10000000)
 

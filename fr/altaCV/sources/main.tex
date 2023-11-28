@@ -27,7 +27,7 @@
 %% You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
 
 % Change the page layout if you need to
-\geometry{left=1cm,right=1cm,top=1cm,bottom=1cm,columnsep=0.75cm}
+\geometry{left=1cm,right=1cm,top=0.8cm,bottom=0.8cm,columnsep=0.75cm}
 
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
@@ -83,13 +83,10 @@
 \newcommand{\cvpart}[1]{\ifstrequal{#1}{}{}{{\small\makebox[0.5\linewidth][l]{~#1}}}}
 
 \name{Dhia Hmila}
-\tagline{Data Scientist Senior chez AXA France}
-%% You can add multiple photos on the left or right
-\photoR{3.5cm}{photo_light.png}
-%\photoL{2cm}{Yacht_High,Suitcase_High}
+\tagline{Data Scientist Senior chez AXA France}\photoR{3.5cm}{photo_light.png}
+\photoL{3cm}{qrcode.png}
+
 \personalinfo{%
-  % Not all of these are required!
-  % You can add your own with \printinfo{symbol}{detail}
   \email{dhiahmila@gmail.com}  \phone{+33610201606}  \location{92700, Colombes, France}  \homepage{hmiladhia.github.io}
     \printinfo{\faGithub}{hmiladhia}[https://github.com/hmiladhia]
     \printinfo{\faLinkedin}{dhia-hmila}[https://www.linkedin.com/in/dhia-hmila]
@@ -97,10 +94,6 @@
     \printinfo{\faStackOverflow}{dhia-hmila}[https://stackoverflow.com/users/8655480/dhia-hmila?tab=profile]
   
   % \printinfo{\faPaw}{Hey ho!}
-  %% Or you can declare your own field with
-  % \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
-  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
-  % \gitlab{your_id}
 }
 
 \makecvheader
