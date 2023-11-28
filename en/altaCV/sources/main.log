@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.12)  28 NOV 2023 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.12)  28 NOV 2023 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,34 +1036,34 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \@quotelevel=\count445
 \@quotereset=\count446
 LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input li
-ne 83.
+ne 82.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 83.
+(Font)              scaled to size 10.0pt on input line 82.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1087,7 +1087,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 82.
 
 (./main.out) (./main.out)
 \@outlinefile=\write6
@@ -1142,142 +1142,142 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 83.
-Package biblatex Info: Reference segment=0 on input line 83.
+Package biblatex Info: Reference section=0 on input line 82.
+Package biblatex Info: Reference segment=0 on input line 82.
 \c@mv@tabular=\count453
 \c@mv@boldtabular=\count454
 <qrcode.png, id=10, 471.7625pt x 471.7625pt>
 File: qrcode.png Graphic file (type png)
 <use qrcode.png>
-Package pdftex.def Info: qrcode.png  used on input line 100.
+Package pdftex.def Info: qrcode.png  used on input line 99.
 (pdftex.def)             Requested size: 471.76134pt x 471.76134pt.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 100.
+(Font)              <7> on input line 99.
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 100.
+(Font)              <5> on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 100.
+(Font)              scaled to size 24.88pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 100.
+(Font)              scaled to size 24.88pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 100.
+(Font)              scaled to size 12.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 100.
+(Font)              scaled to size 12.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 100.
+(Font)              scaled to size 8.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 100.
+(Font)              scaled to size 8.0pt on input line 99.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 100.
+nput line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 100.
+nput line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 100.
+nput line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 100.
+ input line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.
 fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 100.
+n input line 99.
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
- input line 100.
+ input line 99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands1.
 fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 100.
+n input line 99.
 
-Underfull \hbox (badness 1558) in paragraph at lines 100--100
+Underfull \hbox (badness 1558) in paragraph at lines 99--99
 [] [] [] [] 
  []
 
 <photo.png, id=22, 1032.85875pt x 1032.85875pt>
 File: photo.png Graphic file (type png)
 <use photo.png>
-Package pdftex.def Info: photo.png  used on input line 100.
+Package pdftex.def Info: photo.png  used on input line 99.
 (pdftex.def)             Requested size: 1032.85623pt x 1032.85623pt.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 112.
+(Font)              scaled to size 17.28pt on input line 111.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 112.
+(Font)              scaled to size 17.28pt on input line 111.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 116.
+(Font)              scaled to size 10.0pt on input line 115.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 116.
+(Font)              scaled to size 9.0pt on input line 115.
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 119.
+ine 118.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 119.
+(Font)              scaled to size 9.0pt on input line 118.
 
-Overfull \hbox (10.68481pt too wide) in paragraph at lines 167--167
+Overfull \hbox (10.68481pt too wide) in paragraph at lines 166--166
 [][][]\T1/lato-TLF/m/n/12 mlflower: Lightweight or-ches-tra-tion tool for mlflo
 w projects[]  
  []
 
 
-Overfull \hbox (21.60524pt too wide) in paragraph at lines 181--182
+Overfull \hbox (21.60524pt too wide) in paragraph at lines 180--181
 []\T1/lato-TLF/m/n/9 This re-sume was cre-ated us-ing pysira: hmi-lad-hia.githu
 b.io, hmi-lad-hia.github.io/cv.pdf, 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 212.
+(Font)              scaled to size 9.0pt on input line 211.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 212.
+nput line 211.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd
 )
-Overfull \hbox (3.288pt too wide) in paragraph at lines 225--234
+Overfull \hbox (3.288pt too wide) in paragraph at lines 224--233
 [][]  []  []  [] 
  []
 
 
-Overfull \hbox (0.62784pt too wide) in paragraph at lines 237--246
+Overfull \hbox (0.62784pt too wide) in paragraph at lines 236--245
 [][]  []  [] 
  []
 
 
-Overfull \hbox (19.15778pt too wide) in paragraph at lines 237--246
+Overfull \hbox (19.15778pt too wide) in paragraph at lines 236--245
 []  []  []  [] 
  []
 
 
-Overfull \hbox (16.4628pt too wide) in paragraph at lines 249--254
+Overfull \hbox (16.4628pt too wide) in paragraph at lines 248--253
 [][]  []  []  []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--254
+Underfull \hbox (badness 10000) in paragraph at lines 248--253
  
  []
 
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 264.
+n input line 263.
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 267.
+n input line 266.
 [1
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/loc
@@ -1289,13 +1289,18 @@ texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local
 l/texlive/2023/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive
 /2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc} <./qrcode.png> <./p
 hoto.png>]
-Overfull \hbox (7.138pt too wide) in paragraph at lines 271--277
+Overfull \hbox (7.138pt too wide) in paragraph at lines 270--276
 []  []  []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--277
+Underfull \hbox (badness 10000) in paragraph at lines 270--276
  
+ []
+
+
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 310--310
+[]|[]| 
  []
 
 
@@ -1314,74 +1319,36 @@ Overfull \hbox (1.59999pt too wide) in paragraph at lines 313--313
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 314--314
-[]|[]| 
- []
+Package hyperref Warning: Suppressing link with empty target on input line 313.
 
-
-Package hyperref Warning: Suppressing link with empty target on input line 314.
-
-
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <12> not 
-available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 319.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 319.
-
-Overfull \hbox (27.84738pt too wide) in paragraph at lines 319--319
-\T1/lato-TLF/m/it/10 make Python Faster\T1/lato-TLF/m/n/10 . URL: []$https : / 
-/ towardsdatascience . 
- []
-
-
-Overfull \hbox (107.20029pt too wide) in paragraph at lines 319--319
-\T1/lato-TLF/m/n/10 com / this-[]decorator-[]will-[]make-[]python-[]30-[]times-
-[]faster-[]715ca5a66d5f$[].  
- []
-
-
-Overfull \hbox (80.3854pt too wide) in paragraph at lines 319--319
-\T1/lato-TLF/m/n/10 3-[]reasons-[]why-[]sparks-[]lazy-[]evaluation-[]is-[]usefu
-l-[]ed06e27360c4$[].  
- []
 
 [2] (./main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40002 strings out of 474272
- 790323 string characters out of 5747518
+ 39776 strings out of 474272
+ 785351 string characters out of 5747518
  1989530 words of memory out of 5000000
- 61599 multiletter control sequences out of 15000+600000
- 874537 words of font info for 78 fonts, out of 8000000 for 9000
+ 61378 multiletter control sequences out of 15000+600000
+ 851338 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,11n,121p,1129b,2646s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
-pe1/typoland/lato/Lato-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
-e1/typoland/lato/Lato-Regular.pfb>
-Output written on main.pdf (2 pages, 976740 bytes).
+pe1/typoland/lato/Lato-Regular.pfb>
+Output written on main.pdf (2 pages, 955794 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
  55 words of extra memory for PDF output out of 10000 (max. 10000000)
 
