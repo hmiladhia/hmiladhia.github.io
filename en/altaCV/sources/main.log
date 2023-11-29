@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.12)  28 NOV 2023 23:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.12)  29 NOV 2023 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1240,44 +1240,44 @@ b.io, hmi-lad-hia.github.io/cv.pdf,
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 211.
+(Font)              scaled to size 9.0pt on input line 225.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 211.
+nput line 225.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd
 )
-Overfull \hbox (3.288pt too wide) in paragraph at lines 224--233
+Overfull \hbox (3.288pt too wide) in paragraph at lines 238--247
 [][]  []  []  [] 
  []
 
 
-Overfull \hbox (0.62784pt too wide) in paragraph at lines 236--245
+Overfull \hbox (0.62784pt too wide) in paragraph at lines 250--259
 [][]  []  [] 
  []
 
 
-Overfull \hbox (19.15778pt too wide) in paragraph at lines 236--245
+Overfull \hbox (19.15778pt too wide) in paragraph at lines 250--259
 []  []  []  [] 
  []
 
 
-Overfull \hbox (16.4628pt too wide) in paragraph at lines 248--253
+Overfull \hbox (16.4628pt too wide) in paragraph at lines 262--267
 [][]  []  []  []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--253
+Underfull \hbox (badness 10000) in paragraph at lines 262--267
  
  []
 
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 263.
+n input line 277.
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 266.
+n input line 280.
 [1
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/loc
@@ -1289,37 +1289,37 @@ texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local
 l/texlive/2023/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive
 /2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc} <./qrcode.png> <./p
 hoto.png>]
-Overfull \hbox (7.138pt too wide) in paragraph at lines 270--276
+Overfull \hbox (7.138pt too wide) in paragraph at lines 284--290
 []  []  []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--276
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
  
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 310--310
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 324--324
 []|[]| 
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 311--311
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 325--325
 []|[]| 
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 312--312
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 326--326
 []|[]| 
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 313--313
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 327--327
 []|[]| 
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 313.
+Package hyperref Warning: Suppressing link with empty target on input line 327.
 
 
 [2] (./main.aux)
@@ -1334,11 +1334,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39776 strings out of 474272
- 785351 string characters out of 5747518
- 1989530 words of memory out of 5000000
- 61378 multiletter control sequences out of 15000+600000
- 851338 words of font info for 75 fonts, out of 8000000 for 9000
+ 39777 strings out of 474272
+ 785380 string characters out of 5747518
+ 1992530 words of memory out of 5000000
+ 61379 multiletter control sequences out of 15000+600000
+ 851649 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,11n,121p,1129b,2646s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
@@ -1346,9 +1346,9 @@ me5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/typoland/lato/Lato-Regular.pfb>
-Output written on main.pdf (2 pages, 955794 bytes).
+Output written on main.pdf (2 pages, 957453 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  55 words of extra memory for PDF output out of 10000 (max. 10000000)
 
