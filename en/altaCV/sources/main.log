@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.31)  13 JAN 2024 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.31)  14 JAN 2024 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1326,7 +1326,17 @@ Overfull \hbox (1.59999pt too wide) in paragraph at lines 329--329
  []
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 329.
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 330--330
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 331--331
+[]|[]| 
+ []
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 331.
 
 
 [2] (./main.aux)
@@ -1353,9 +1363,9 @@ me5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/typoland/lato/Lato-Regular.pfb>
-Output written on main.pdf (2 pages, 957897 bytes).
+Output written on main.pdf (2 pages, 958755 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  55 words of extra memory for PDF output out of 10000 (max. 10000000)
 
