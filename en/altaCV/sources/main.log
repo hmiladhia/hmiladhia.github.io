@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  4 FEB 2024 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  15 FEB 2024 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1243,45 +1243,51 @@ Overfull \hbox (21.60524pt too wide) in paragraph at lines 180--181
 b.io, hmi-lad-hia.github.io/cv.pdf, 
  []
 
+
+Overfull \hbox (24.74867pt too wide) in paragraph at lines 217--219
+[]\T1/lato-TLF/m/n/9 I am a Se-nior Data Sci-en-tist and I spe-cial-ize in frau
+d/anomaly 
+ []
+
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 225.
+(Font)              scaled to size 9.0pt on input line 224.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 225.
+nput line 224.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd
 )
-Overfull \hbox (3.288pt too wide) in paragraph at lines 238--247
+Overfull \hbox (3.288pt too wide) in paragraph at lines 237--246
 [][]  []  []  [] 
  []
 
 
-Overfull \hbox (0.62784pt too wide) in paragraph at lines 250--259
+Overfull \hbox (0.62784pt too wide) in paragraph at lines 249--258
 [][]  []  [] 
  []
 
 
-Overfull \hbox (19.15778pt too wide) in paragraph at lines 250--259
+Overfull \hbox (19.15778pt too wide) in paragraph at lines 249--258
 []  []  []  [] 
  []
 
 
-Overfull \hbox (16.4628pt too wide) in paragraph at lines 262--267
+Overfull \hbox (16.4628pt too wide) in paragraph at lines 261--266
 [][]  []  []  []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--267
+Underfull \hbox (badness 10000) in paragraph at lines 261--266
  
  []
 
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 277.
+n input line 276.
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 279.
+n input line 278.
 [1
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}{/usr/loc
@@ -1293,13 +1299,18 @@ texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local
 l/texlive/2023/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc}{/usr/local/texlive
 /2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc} <./qrcode.png> <./p
 hoto.png>]
-Overfull \hbox (7.138pt too wide) in paragraph at lines 285--291
+Overfull \hbox (7.138pt too wide) in paragraph at lines 284--290
 []  []  []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--291
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
  
+ []
+
+
+Overfull \hbox (1.59999pt too wide) in paragraph at lines 324--324
+[]|[]| 
  []
 
 
@@ -1348,12 +1359,7 @@ Overfull \hbox (1.59999pt too wide) in paragraph at lines 333--333
  []
 
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 334--334
-[]|[]| 
- []
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 334.
+Package hyperref Warning: Suppressing link with empty target on input line 333.
 
 
 [2] (./main.aux)
@@ -1380,7 +1386,7 @@ me5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/typoland/lato/Lato-Regular.pfb>
-Output written on main.pdf (2 pages, 959986 bytes).
+Output written on main.pdf (2 pages, 959984 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
