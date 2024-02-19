@@ -115,11 +115,15 @@
       }{Nanterre, France}
 
 \begin{itemize}
-  \item Développement de modèles de classification de documents basé sur des technologies de Computer Vision (keras, Vision Transformer, openCV, ...) pour indexer les document de la GED ( Gestion éléctronique des documents ) d'AXA.
-  \item Construction de Pipelines Azure ML réutilisables pour réentrainer automatiquement un système IA (Yolov5, tesseract, VGG16, Vision Transformer, ...) utilisé pour l'extraction d'informations (Permis, CNI, ...)
-  \item Construction de Templates CI (Continuous Integration), CD (Continuous Deployment) \& CT (Continuous Training) pour les projets de l'équipe
-  \item Responsable de la "COP Python" d'AXA et animateur d'événements mensuels de programmation ( testing, Web Scraping, packaging, qualité de code)
-  \item Animation d'une formation Python et Manipulation de données en utilisant pandas \& pyspark pour des collaborateurs AXA
+  \item Développement de systèmes d'IA d'extraction d'information basé pour lire des documents (permis de conduire, carte d'identité nationale, etc.). Les modèles construit ont permis de traiter plus de 6 millions documents.
+  \item Création d'une gamme de packages Python réutilisables pour le traitement de documents (OCR, détection d'objets, etc.). Les packages sont conçus pour expérimenter rapidement avec différents modèles (Startegy Pattern).
+  \item Automatisation de l'indexation de 70\% des documents entrants d'AXA France (flux sinistre) en développant un système d'IA de classification de documents (exposé en tant qu'API).
+  \item Élaboration de pipelines Azure ML réutilisables (CT - Continuous Training) pour réentrainer automatiquement les systèmes d'IA et les publier dans le Registre des modèles.
+  \item Conception de modèles de pipelines CI/CD Azure DevOps à utiliser dans les projets de l'équipe.
+  \item Supervision du processus de recrutement, intégration des nouveaux membres de l'équipe et facilitation du transfert efficace des connaissances.
+  \item Coordination du processus d'annotation avec les annotateurs et les experts métiers pour garantir des datasets cohérents et de qualité.
+  \item Direction de l'initiative "Python COP" d'AXA, organisant une série d'événements mensuels sur la programmation portant sur des sujets tels que les tests, le web scraping, le packaging, la qualité du code, etc.
+  \item Animation d'une série de formations ( sur Python, la manipulation des données avec pandas \& pyspark, les bonnes pratiques de code ) pour plus de 30 collaborateurs d'AXA.
 \end{itemize}
 
 \divider
@@ -128,8 +132,8 @@
       }{Nanterre, France}
 
 \begin{itemize}
-  \item Développement d'un outil de détection automatique de fraudes qui agit sur différents périmètres (Prestataires de santé, Bénéficiaires, Procédures médicales, ...) et déploiement sur Databricks.
-  \item Création de différents modèles de détection de fraude pour alimenter l'outil de détection FWA.
+  \item Conception et développement d'un outil de détection avancée des fraudes, gaspillage et abus piloté par l'IA, agissant à différentes échelles (sinistres, prestataires de santé, bénéficiaires). Cet outil novateur a joué un rôle clé dans la réalisation d'économies dépassant les 150 000 euros en 2022.
+  \item Conception et entraînement de divers modèles de détection de fraudes pour repérer les patterns frauduleux, dans le cadre de l'outil de détection des FWA(Fraud, Waste \& Abuse).
 \end{itemize}
 
 \divider
@@ -138,14 +142,44 @@
       }{Paris, France}
 
 \begin{itemize}
-  \item Utilisation de technologies NLP pour le clustering des notes de gestionnaires de sinistres et création de nouveaux modèles de détection de fraude
-  \item Amélioration et déploiement de la solution de détection de fraude Force de SHIFT pour un nouveau client
+  \item Mis en œuvre des techniques de Traitement du Langage Naturel (NLP) pour regrouper les notes des gestionnaires de sinistres, en utilisant des méthodes de visualisation avancées afin de déceler et d'identifier les patterns de fraude émergents.
+  \item Élaboration de nouveaux modèles d'IA pour la solution de détection de fraude de Shift et déploiement de la solution pour un nouveau client.
+\end{itemize}
+
+\divider
+\cvevent{Stage de recherche}{U2IS - ENSTA Paris}{        
+      Mai 2018 - Août 2018
+      }{Palaiseau, France}
+
+\begin{itemize}
+  \item Simulation d'un agent dans un environnement artificiel et création d'un dataset d'images où on peut percevoir l'effet de l'oubli catastrophique en utilisant le Raytracing pour rendre des images réalistes..
+  \item Évaluation de la méthode "Elastic Parameters Consolidation" proposée par un article de recherche pour remédier à l'oubli catastrophique qui surgit lors de l'apprentissage incrémental.
 \end{itemize}
 
 
 
 \cvsection{Projets}
 
+\cvevent{\faCube \href{https://github.com/hmiladhia/mlflower}{mlflower: Outil d'orchestration pour les projets MLflow.}}{\cvtag{mlflow}\cvtag{orchestration}\cvtag{experiment-tracking}}{        
+      Novembre 2023 - Aujourd'hui
+      }{}
+
+Outil d'orchestration de jobs d'entraineemnt basé sur MLflow Projects.
+
+
+\divider
+\cvevent{\faCube \href{https://github.com/hmiladhia/pysira}{pysira: publication de CVs dans différents formats.}}{\cvtag{Github Actions}\cvtag{Jinja2 Templates}\cvtag{jsonschema}}{        
+      Février 2023 - Aujourd'hui
+      }{}
+
+Outil en ligne de commande permettant d'exporter des CVs au format 'jsonresume' vers différents formats (HTML, TeX, PDF, etc.) et langues (Anglais, Françait, etc..).
+
+\begin{itemize}
+      \item Création d'un pipeline CI/CD (Actions Github) pour publier des CV dans différents thèmes, formats et langues.
+      \item Ce CV a été créé en utilisant pysira : hmiladhia.github.io, hmiladhia.github.io/cv.pdf, hmiladhia.github.io/fr/kendall ou hmiladhia.github.io/resume.pdf
+  \end{itemize}
+
+\divider
 \cvevent{\faCube \href{https://pypi.org/project/nbmanips/}{nbmanips: Découper, fusionner et convertir vos Notebooks}}{\cvtag{Jupyter}\cvtag{Databricks}\cvtag{Zeppelin}}{        
       Mai 2021 - Aujourd'hui
       }{}
@@ -165,20 +199,21 @@ Spot-Language est un modèle de classification des languages utilisés dans des 
       \item Déploiement d'une application Web pour servir de démo au modèle IA.
   \end{itemize}
 
-\divider
-\cvevent{\faCube \href{https://pypi.org/project/Dmail/}{Dmail: Envoi d'e-mails au format Markdown}}{\cvtag{email}\cvtag{markdown}\cvtag{downloads\textgreater{}100k}}{        
-      Avril 2020 - Mai 2020
-      }{}
-
-Un package python qui permet d'envoyer des e-mails au format markdown
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Switch to the right column. This will now automatically move to the second
 %% page if the content is too long.
 \switchcolumn
+\cvsection{A Propos De Moi}
+{\small
+Je suis un Data Scientist Senior spécialisé dans la détection de fraudes/anomalies 
+et la classification de documents. J'ai travaillé sur une panoplie de sujets ML 
+dont des sujets Computer Vision ou encore NLP/NLU.
+Je possède également une solide expérience autour des pratiques de MLOps,
+pour garantir une intégration fluide des modèles dans les environnements de production.
+
+}
 
 \cvsection{Cursus}
 
