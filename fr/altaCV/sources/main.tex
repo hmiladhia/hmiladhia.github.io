@@ -1,0 +1,320 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.3, 10 May 2020) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+
+\documentclass[10pt,letter,ragged2e,withhyper]{altacv}
+
+%% AltaCV uses the fontawesome5 and academicon fonts and packages.
+%% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/academicons for full list of symbols.
+%% You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=1cm,top=0.8cm,bottom=0.8cm,columnsep=0.75cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{LimeGreen}{HTML}{11710E}
+\definecolor{Blue}{HTML}{253489}
+\definecolor{Teal}{HTML}{109EAA}
+\definecolor{Silver}{HTML}{B5B5B5}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\definecolor{DarkGreen}{HTML}{303d36}
+\definecolor{MyGreen}{HTML}{88A05B}
+
+\colorlet{name}{black}
+\colorlet{tagline}{teal}
+\colorlet{heading}{teal}
+\colorlet{headingrule}{teal}
+\colorlet{subheading}{DarkGreen}
+\colorlet{accent}{teal}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\renewcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\medskip}
+
+
+
+%% sample.bib contains your publications
+
+\begin{document}
+\newcommand{\cvpart}[1]{\ifstrequal{#1}{}{}{{\small\makebox[0.5\linewidth][l]{~#1}}}}
+
+\name{Dhia Hmila}
+\tagline{Data Scientist Senior chez AXA France}\photoR{3.5cm}{photo.png}
+\photoL{3cm}{qrcode.png}
+
+\personalinfo{%
+  \email{dhia.hmila@dasquare.xyz}  \phone{+33610201606}  \location{92700, Colombes, France}  \homepage{hmiladhia.github.io}
+    \printinfo{\faGithub}{hmiladhia}[https://github.com/hmiladhia]
+    \printinfo{\faLinkedin}{dhia-hmila}[https://www.linkedin.com/in/dhia-hmila]
+    \printinfo{\faMedium}{Dhia Hmila}[https://dhiahmila.medium.com/]
+    \printinfo{\faStackOverflow}{dhia-hmila}[https://stackoverflow.com/users/8655480/dhia-hmila?tab=profile]
+  
+  % \printinfo{\faPaw}{Hey ho!}
+}
+
+\makecvheader
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.6}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+\cvsection{Expérience Professionnelle}
+
+\cvevent{Data Scientist Senior}{Équipe Data Science \& IA, AXA France}{        
+      Juin 2021 - Aujourd'hui
+      }{Nanterre, France}
+
+\begin{itemize}
+  \item Développé un système RAG basé sur un LLM pour répondre aux questions des agents d'assurance et réduire la charge du service support.
+  \item Animé des ateliers avec des ingénieurs ML, des ingénieurs de données et des data scientists pour développer le Guide des Meilleures Pratiques MLOps pour AXA France.
+  \item Créé un template Cookiecutter pour de nouveaux projets ML afin d'accélérer le time-to-market (TTM) chez AXA.
+  \item Construit des systèmes d'IA pour l'extraction d'informations structurées à partir de documents (CNI, permis, etc.), permettant le traitement de plus de 6 millions de documents avec PySpark.
+  \item Conçu des packages de document processing réutilisables (dont certains en open-source) pour accélérer le développement de moteurs de document processing.
+  \item Automatisé l'indexation de 70 \% des documents entrants d'AXA France en utilisant des systèmes d'IA réentraînables pour la classification de documents.
+  \item Réduction de la charge de travail du service d'assistance en développant un système RAG basé sur un LLM pour répondre aux questions des agents d'assurance.
+  \item Construit des pipelines Azure ML réutilisables pour l'entraînement continu (CT), facilitant le déploiement des modèles dans le Model Registry.
+  \item Conçu des templates Azure DevOps de CI/CD, améliorant la qualité du code et le temps de livraison des projets.
+  \item Coordonné le processus d'annotation avec les métiers pour garantir des ensembles de données de haute qualité à travers divers projets.
+  \item Dirigé la COP Python d'AXA en organisant des présentations mensuelles sur des sujets tels que les tests, le web scraping et la qualité du code.
+  \item Animé des sessions de formation pour la manipulation de données avec Python pour plus de 30 collaborateurs d'AXA, renforçant ainsi leurs compétences
+\end{itemize}
+
+\divider
+\cvevent{Graduate Program - Data Scientist}{Équipe Data, Fraud, Waste \& Abuse, AXA France}{        
+      Mai 2020 - Juin 2021
+      }{Nanterre, France}
+
+\begin{itemize}
+  \item Construit un outil de détection de fraudes et d'abus piloté par l'IA, permettant des économies dépassant 150 000 € en 2022.
+  \item Conçu et entraîné plusieurs modèles de détection de fraude, améliorant significativement les performances de la détection.
+\end{itemize}
+
+\divider
+\cvevent{Data Scientist}{Shift Technology}{        
+      Avril 2019 - Mars 2020
+      }{Paris, France}
+
+\begin{itemize}
+  \item Appliqué des techniques de NLP pour cluster-iser les notes des gestionnaires de sinistres, révélant des patterns de fraude émergents grâce à une visualisation avancée.
+  \item Développé et déployé de nouveaux modèles d'IA pour la solution de détection de fraude de Shift, améliorant ainsi les offres aux clients.
+\end{itemize}
+
+\divider
+\cvevent{Stage de recherche}{U2IS - ENSTA Paris}{        
+      Mai 2018 - Août 2018
+      }{Palaiseau, France}
+
+\begin{itemize}
+  \item Créé un ensemble de données d'images synthétiques en simulant un agent dans un environnement interne, en utilisant le ray tracing pour un rendu d'image réaliste.
+  \item Exploré l'oubli catastrophique dans l'apprentissage incrémental des composantes principales des images générées.
+\end{itemize}
+
+
+
+\cvsection{Projets}
+
+\cvevent{\faCube \href{https://github.com/hmiladhia/mlflower}{mlflower: Outil d'orchestration pour les projets MLflow.}}{\cvtag{mlflow}\cvtag{orchestration}\cvtag{experiment-tracking}\cvtag{open-source}}{        
+      Novembre 2023 - Aujourd'hui
+      }{}
+
+Un outil d'orchestration qui améliore les projets MLflow en fournissant une gestion intégrée des workflows multi-étapes.
+
+\begin{itemize}
+      \item Utilisé des graphes orientés acyclique (DAG) pour gérer des workflows ML complexes, garantissant une exécution logique des tâches.
+      \item Implémenté un tri topologique pour optimiser l'ordre des tâches en fonction des dépendances, améliorant ainsi l'efficacité des workflows.
+      \item Amélioré les projets MLflow avec une gestion claire des dépendances pour des expériences en plusieurs étapes.
+      \item Intégré des outils de visualisation pour une compréhension intuitive des workflows et des dépendances.
+  \end{itemize}
+
+\divider
+\cvevent{\faCube \href{https://github.com/hmiladhia/pysira}{pysira: publication de CVs dans différents formats.}}{\cvtag{Github Actions}\cvtag{Jinja2 Templates}\cvtag{jsonschema}}{        
+      Février 2023 - Aujourd'hui
+      }{}
+
+Un outil pour exporter des fichiers 'jsonresume' vers divers formats (HTML, TeX, PDF) et langues.
+
+\begin{itemize}
+      \item Développé un pipeline CI/CD utilisant GitHub Actions pour automatiser la publication de CV dans plusieurs formats et thèmes.
+      \item Permis l'exportation de fichiers 'jsonresume' vers HTML, TeX, PDF et d'autres formats.
+      \item Démontré la fonctionnalité avec un CV en direct : hmiladhia.github.io, hmiladhia.github.io/cv.pdf.
+  \end{itemize}
+
+\divider
+\cvevent{\faCube \href{https://github.com/AxaFrance/axa-fr-splitter}{Splitter: Outil de Traitement de Documents}}{\cvtag{Traitement de Documents}\cvtag{RAG}\cvtag{open-source}}{        
+      Décembre 2021 - Aujourd'hui
+      }{}
+
+Un package open-source offrant des outils pour traiter divers types de documents (PDF, TIFF, etc.) en images et extraire du texte en utilisant Python.
+
+\begin{itemize}
+      \item Prend en charge plusieurs formats de documents pour un traitement polyvalent.
+      \item Architecture personnalisable avec support de plugins pour des fonctionnalités étendues.
+  \end{itemize}
+
+\divider
+\cvevent{\faLaptop \href{https://spot-language.onrender.com/}{Spot-Language: Prédiction des langage de programmation}}{\cvtag{Classification}\cvtag{Flask}\cvtag{NLP}\cvtag{LIME}}{        
+    Janvier 2020
+  }{}
+
+Un modèle de classification pour détecter les langages de programmation dans des extraits de code.
+
+\begin{itemize}
+      \item Construit un jeu de données d'entrainement provenant de repositories github publiques.
+      \item Construit une expérience ML pour entraîner un modèle de classification pour la détection de langages de programmation.
+      \item Amélioré l'interprétabilité du modèle en utilisant LIME pour de meilleures insights sur les prédictions.
+      \item Déployé une application web de démonstration utilisant Flask pour présenter le modèle ML.
+  \end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+\cvsection{A Propos De Moi}
+{\small
+Je suis un Data Scientist Senior spécialisé dans la détection de fraudes/anomalies 
+et la classification de documents. J'ai travaillé sur une panoplie de sujets ML 
+dont des sujets Computer Vision ou encore NLP/NLU.
+Je possède également une solide expérience autour des pratiques de MLOps,
+pour garantir une intégration fluide des modèles dans les environnements de production.
+}
+
+\cvsection{Cursus}
+
+\cvevent{Double diplôme d'ingénieur}{\cvpart{\faUserGraduate ENSTA ParisTech }\cvpart{\faUserGraduate  ENIT}}{2016 - 2019}{France - Tunisia}
+{\small Spécialisé en \textbf{Intelligence Artificielle}}
+
+\divider
+\cvevent{Cycle préparatoire}{\cvpart{\faUserGraduate IPEIT }\cvpart{\faUserGraduate  Esprit Prépa}}{2014 - 2015}{France - Tunisia}
+{\small Spécialisé en \textbf{Math \& Physique}}
+{\small Rang 10 au concours d'entrée aux écoles d'ingénieurs en Tunisie parmi plus de 3000 candidats.}
+
+
+
+\cvsection{Compétences}
+
+\cvsubsection{Programmation}
+\cvtag{\faPython Python}
+\cvtag{ Rust}
+\cvtag{\faJs JavaScript}
+\cvtag{ C/C++}
+
+\divider
+\cvsubsection{Intelligence Artificielle}
+\cvtag{ scikit-learn}
+\cvtag{ TensorFlow}
+\cvtag{ PyTorch}
+\cvtag{ Transformers}
+\cvtag{ Generative AI}
+
+\divider
+\cvsubsection{MLOps}
+\cvtag{ MLflow}
+\cvtag{\faGithub Github Actions}
+\cvtag{\faMicrosoft Azure Pipelines}
+\cvtag{\faDocker Docker}
+\cvtag{ Kubernetes}
+
+\divider
+\cvsubsection{Natural Language Processing}
+\cvtag{ spaCy}
+\cvtag{ Langchain}
+\cvtag{ Pydantic-ai}
+\cvtag{ RAG}
+\cvtag{ LLMs}
+\cvtag{ ReACT}
+
+\divider
+\cvsubsection{Data Wrangling}
+\cvtag{ pandas}
+\cvtag{ Polars}
+\cvtag{ PySpark}
+\cvtag{\faDatabase SQL}
+
+\divider
+\cvsubsection{Computer Vision}
+\cvtag{ OpenCV}
+\cvtag{ Vision Transformers}
+\cvtag{ YOLO}
+
+\divider
+\cvsubsection{Cloud}
+\cvtag{\faMicrosoft Azure ML}
+\cvtag{ Databricks}
+
+
+
+\cvsection{Langues}
+
+\cvskill{\large Arabe}{5}
+\cvskill{\large Anglais}{5}
+\cvskill{\large Français}{5}
+
+
+\cvsection{Certifications}
+
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/specialization/6XMVEAR45K6G}{Machine Learning Engineering for Production (MLOps) Specialization}}{\cvpart{DeepLearning.AI}\cvpart{\faCalendar 2022 2022}}
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/specialization/G8MVU96LKELW}{Natural Language Processing Specialization}}{\cvpart{DeepLearning.AI}\cvpart{\faCalendar 2024 2024}}
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/specialization/J5FL39Y2CK4D}{Cloud-Native Development with OpenShift and Kubernetes Specialization}}{\cvpart{Red Hat}\cvpart{\faCalendar 2023 2023}}
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/certificate/ABFVM3MXBCJN}{Rust Fundamentals}}{\cvpart{Duke University}\cvpart{\faCalendar 2024 2024}}
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/certificate/XUB5Z5U3HF9C}{Rust for DevOps}}{\cvpart{Duke University}\cvpart{\faCalendar 2024 2024}}
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/certificate/4WPJZL5DER96}{Rust for LLMOps (Large Language Model Operations)}}{\cvpart{Duke University}\cvpart{\faCalendar 2024 2024}}
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/certificate/7X42H7MNSLC3}{DevOps, DataOps, MLOps}}{\cvpart{Duke University}\cvpart{\faCalendar 2024 2024}}
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/records/E9F3SJLMEFDL}{MLOps Tools: MLflow and Hugging Face}}{\cvpart{Duke University}\cvpart{\faCalendar 2023 2023}}
+\cvachievement{\faGraduationCap}{\href{https://www.coursera.org/account/accomplishments/records/6ZK4EC55RSC6}{Introduction to Large Language Models}}{\cvpart{Google Cloud}\cvpart{\faCalendar 2023 2023}}
+\cvachievement{\faGraduationCap}{\href{}{TOEIC Listening and Reading Test (Score 985/990)}}{\cvpart{ETS Global}\cvpart{\faCalendar 2018 2018}}
+
+\end{paracol}
+
+\end{document}
